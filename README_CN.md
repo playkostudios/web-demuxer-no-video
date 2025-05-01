@@ -2,6 +2,10 @@
 <h1 align="center">Web-Demuxer</h1>
 <p align="center">使用WebAssembly在浏览器中对媒体文件进行解封装, 专门为WebCodecs设计</p>
 
+> WARNING: This is a fork of web-demux with no video support
+
+For upstream, check https://github.com/bilibili/web-demuxer
+
 ## 目的
 WebCodecs只提供了decode的能力，但没有提供demux的能力。有一些JS解封装mp4box.js很酷，但它只支持mp4，Web-Demuxer的目的是一次性支持更多媒体格式
 

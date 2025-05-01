@@ -2,6 +2,10 @@
 <h1 align="center">Web-Demuxer</h1>
 <p align="center">Demux media files in the browser using WebAssembly, designed for WebCodecs.</p>
 
+> WARNING: This is a fork of web-demux with no video support
+
+For upstream, check https://github.com/bilibili/web-demuxer
+
 ## Purpose
 WebCodecs only provide the ability to decode, but not to demux. mp4box.js is cool, but it only supports mp4 demux. Web-Demuxer aims to support as many multimedia formats as possible at once.
 
